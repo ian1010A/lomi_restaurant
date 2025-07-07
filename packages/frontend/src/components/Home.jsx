@@ -11,11 +11,15 @@ const HomePage = () => {
             <h1>Lomi Restaurant</h1>
             <h2>Kula Local, Kula Fresh</h2>
             <Link to="/menu">
-              <button>Order Now</button>
+              <button className="order-now-btn">Order Now</button>
             </Link>
           </div>
-          <div className="home-intro-image">
-            <img src="/images/food.jpg" alt="animation" />
+          <div className="home-intro-image overlap-images orbit-animation">
+            <img className="overlap-img orbit-img orbit-img-1" src="/images/food.jpg" alt="" />
+            <img className="overlap-img orbit-img orbit-img-2" src="/images/tea.jpg" alt="" />
+            <img className="overlap-img orbit-img orbit-img-3" src="/images/ugali-mayai.png" alt="" />
+            <img className="overlap-img orbit-img orbit-img-4" src="/images/ugalimatumbo.png" alt="" />
+            <img className="overlap-img orbit-img orbit-img-5" src="/images/samosas.png" alt="" />
           </div>
         </div>
       </div>
